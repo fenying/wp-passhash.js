@@ -1,0 +1,32 @@
+{
+  "name": "wp-passhash",
+  "version": "0.1.0",
+  "description": "A password hash verify tool for WordPress (4.7+) in Node.js.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node ./tests/wp-password.js"
+  },
+  "keywords": [
+    "wordpress",
+    "password"
+  ],
+  "author": "Fenying",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenying/wp-passhash.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fenying/wp-passhash.js/issues"
+  },
+  "homepage": "https://github.com/fenying/wp-passhash.js#readme",
+  "types": "./index.d.ts",
+  "typings": "./index.d.ts",
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "@types/node": "^8.0.51"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
