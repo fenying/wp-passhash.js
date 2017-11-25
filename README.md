@@ -2,7 +2,10 @@
 
 A password hash verify tool for WordPress (4.7+) in Node.js.
 
-> Currently only provides the methods to check the result of 
+> Currently only provides the methods to calculate and check the result of 
+> existing password.
+>
+> No methods support generating hash for new password.
 
 ## Requirement
 
